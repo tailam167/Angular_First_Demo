@@ -1,0 +1,21 @@
+<div>
+  <div class="row">
+    <div class="col-md-8" style="margin-top: 1cm;">
+      <h1>Welcome To {{pageTitle}}</h1>
+    </div>
+    <div class="col-md-4" style="text-align: right; margin-top: 0.3cm;">
+      <img src={{imageUrl}} height="100px" width="220px">
+    </div> 
+  </div>
+  <div>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <ul class="nav nav-pills">
+        <li><a class="nav-link" [routerLink]="['/welcome']">Home</a></li>
+        <li><a class="nav-link" [routerLink]="['/products']">Product List</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

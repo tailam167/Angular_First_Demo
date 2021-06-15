@@ -1,0 +1,102 @@
+[
+  {
+      "productId": 1,
+      "productName": "Hammer",
+      "productCode": "HMR-0001",
+      "releaseDate": "Jul 16, 2021",
+      "description": "Curved claw steel hammer",
+      "price": 16.7,
+      "starRating": 3.68,
+      "imageUrl": "assets/images/hammer.png"
+  },
+  {
+      "productId": 2,
+      "productName": "Saw",
+      "productCode": "SAW-0002",
+      "releaseDate": "Sep 9, 2021",
+      "description": "Steel Saw",
+      "price": 9.9,
+      "starRating": 3.36,
+      "imageUrl": "assets/images/saw.png"
+  },
+  {
+      "productId": 3,
+      "productName": "Garden Cart",
+      "productCode": "GCT-0003",
+      "releaseDate": "Jul 9, 2021",
+      "description": "15 Gallon Steel Cart",
+      "price": 7.9,
+      "starRating": 3.77,
+      "imageUrl": "assets/images/garden_cart.png"
+  },
+  {
+      "productId": 4,
+      "productName": "Leaf Rake",
+      "productCode": "LRK-0004",
+      "releaseDate": "Sep 16, 2021",
+      "description": "Steel Rake",
+      "price": 16.9,
+      "starRating": 3.46,
+      "imageUrl": "assets/images/leaf_rake.png"
+  },
+  {
+      "productId": 5,
+      "productName": "Xbox Controller",
+      "productCode": "XBC-0005",
+      "releaseDate": "Nov 20, 2021",
+      "description": "New Version and New Features",
+      "price": 20.11,
+      "starRating": 3.68,
+      "imageUrl": "assets/images/xbox-controller.png"
+  },
+  {
+      "productId": 6,
+      "productName": "Laptop Dell",
+      "productCode": "DEL-0006",
+      "releaseDate": "Nov 10, 2021",
+      "description": "Dell Vostro 3458",
+      "price": 198.26,
+      "starRating": 4.54,
+      "imageUrl": "assets/images/laptop.png"
+  },
+  {
+      "productId": 7,
+      "productName": "Mouse",
+      "productCode": "MOU-0007",
+      "releaseDate": "Oct 16, 2021",
+      "description": "Logitech Mouse Silent M331",
+      "price": 52.75,
+      "starRating": 4.43,
+      "imageUrl": "assets/images/mouse.png"
+  },
+  {
+      "productId": 8,
+      "productName": "KeyBoard",
+      "productCode": "KBD-0008",
+      "releaseDate": "Aug 8, 2021",
+      "description": "Silent Switch, Alien Gaming",
+      "price": 105.85,
+      "starRating": 1.84,
+      "imageUrl": "assets/images/keyboard.png"
+  },
+  {
+      "productId": 9,
+      "productName": "Apple Iphone",
+      "productCode": "AIP-0009",
+      "releaseDate": "Sep 10, 2021",
+      "description": "Iphone 13, New Generation",
+      "price": 1185.90,
+      "starRating": 4.75,
+      "imageUrl": "assets/images/iphone.png"
+  },
+  {
+      "productId": 10,
+      "productName": "Light",
+      "productCode": "AIP-0009",
+      "releaseDate": "Sep 10, 2021",
+      "description": "New Generation, More Brightness",
+      "price": 87.25,
+      "starRating": 3.45,
+      "imageUrl": "assets/images/light.png"
+  }
+]

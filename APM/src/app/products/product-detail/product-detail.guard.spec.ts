@@ -1,3 +1,4 @@
+import { RouterTestingModule } from '@angular/router/testing';
 import { TestBed } from '@angular/core/testing';
 
 import { ProductDetailGuard } from '../product-detail/product-detail.guard';
@@ -6,7 +7,9 @@ describe('ProductDetailGuard', () => {
   let guard: ProductDetailGuard;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      imports: [RouterTestingModule]
+    });
     guard = TestBed.inject(ProductDetailGuard);
   });
 

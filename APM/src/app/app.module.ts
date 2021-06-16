@@ -4,9 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { WelcomeComponent } from './home/welcome.component';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductModule } from './products/product.module';
+
+const appRoutes: Routes = [
+  { path: 'welcome', component: WelcomeComponent },
+  { path: '', redirectTo: 'welcome', pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent }
+];
 
 @NgModule({
   declarations: [
@@ -17,11 +23,10 @@ import { ProductModule } from './products/product.module';
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot([
-      {path: 'welcome', component: WelcomeComponent},
-      {path: '', redirectTo: 'welcome', pathMatch: 'full'},
-      {path: '**', component: PageNotFoundComponent}
-    ]),
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true }
+    ),
     ProductModule
   ],
   bootstrap: [AppComponent]

@@ -12,8 +12,9 @@ export class ProductDetailComponent implements OnInit {
 
   productDetailPageTitle: string = 'Product Detail';
   product!: IProducts;
-  errorMessaage: string = '';
+  errorMessage: string = '';
   products: IProducts[] = [];
+  messageRatingClicked: string = '';
 
   constructor(private route: ActivatedRoute,
     private router: Router,
@@ -26,7 +27,7 @@ export class ProductDetailComponent implements OnInit {
         this.products = products;
         this.product = this.performFilter(id);
       },
-      error: err => this.errorMessaage = err,
+      error: err => this.errorMessage = err,
       complete: () => console.log('Completed subscription !')
     });
   }
@@ -38,5 +39,9 @@ export class ProductDetailComponent implements OnInit {
 
   onBack(): void {
     this.router.navigate(['/products']);
+  }
+
+  onRatingClicked(message: string): void {
+    this.messageRatingClicked = message;
   }
 }

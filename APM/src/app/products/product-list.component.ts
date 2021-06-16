@@ -60,10 +60,6 @@ export class ProductListComponent implements OnInit {
             product.productName.toLocaleLowerCase().includes(filteredBy));
     }
 
-    onRatingClicked(message: string): void {
-        this.productPageTitle = this.productPageTitle + message;
-    }
-
     ngOnDestroy(): void {
         //Called once, before the instance is destroyed.
         //Add 'implements OnDestroy' to the class.

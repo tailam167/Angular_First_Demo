@@ -11,5 +11,5 @@ import { Component } from "@angular/core";
 // Class
 export class AppComponent{
   pageTitle: string = 'Tai Lam\'s Store';
-  imageUrl: string = './assets/images/tailam.png';
+  imageUrl: string = './assets/images/tailam_logo.png';
 }
